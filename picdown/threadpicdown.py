@@ -60,7 +60,8 @@ def main():
         thread.join()
     SHARE_Q.join()
     time2=time.time()
-    print time2-time1
+    t=time2-time1
+    print 'the program time is :%s' %t
 
 if __name__=='__main__':
     main()

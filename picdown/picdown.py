@@ -26,7 +26,8 @@ def downPic(html,keyword):
             fp.close()
             i+=1
     time2=time.clock()
-    print time2-time1
+    t=time2-time1
+    print 'the program time is :%s' %t
 
 if __name__=='__main__':
     word=raw_input("请输入关键字：")
